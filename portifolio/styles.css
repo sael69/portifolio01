@@ -1,0 +1,143 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #121212; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+}
+
+header {
+    background-color: #333; /* Cor do cabeçalho */
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+section {
+    padding: 2rem 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+#home {
+    background-color: #1a1a1a; /* Fundo da seção inicial */
+    text-align: center;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #9c27b0; /* Roxo para o título */
+}
+
+.lead {
+    font-size: 1.5rem;
+    color: #b0bec5; /* Cinza claro para o texto */
+}
+
+.btn-outline-primary {
+    border-color: #9c27b0; /* Cor da borda do botão */
+    color: #9c27b0; /* Cor do texto do botão */
+}
+
+.btn-outline-primary:hover {
+    background-color: #9c27b0; /* Cor de fundo ao passar o mouse */
+    color: #ffffff; /* Cor do texto ao passar o mouse */
+}
+
+#about, #projects, #contact {
+    background-color: #1a1a1a; /* Fundo escuro para as outras seções */
+}
+
+.list-inline-item i {
+    font-size: 24px;
+    color: #9c27b0; /* Roxo para os ícones */
+}
+
+
+#projects {
+    background-color: #282828; /* Fundo escuro para a seção de projetos */
+    padding: 2rem 0; /* Adiciona espaçamento */
+}
+
+.card {
+    background-color: #3a3a3a; /* Fundo das cartas */
+    border: none; /* Remove a borda */
+    transition: transform 0.3s; /* Efeito de transição */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Aumenta a carta ao passar o mouse */
+}
+
+.card-title {
+    color: #9c27b0; /* Roxo para o título do projeto */
+}
+
+.card-text {
+    color: #b0bec5; /* Cinza claro para o texto */
+}
+
+.btn-primary {
+    background-color: #9c27b0; /* Roxo para o botão */
+    border: none; /* Remove a borda do botão */
+}
+
+.btn-primary:hover {
+    background-color: #7b1fa2; /* Tom mais escuro de roxo ao passar o mouse */
+}
+
+
+
+
+#about {
+    background-color: #1a1a1a; /* Fundo escuro */
+    color: #ffffff; /* Texto branco */
+}
+
+h2 {
+    color: #9c27b0; /* Roxo para o título */
+}
+
+p {
+    color: #b0bec5; /* Cinza claro para o texto */
+}
+
+.carousel {
+    display: flex; /* Flexbox para alinhar os ícones */
+    justify-content: center; /* Centraliza os ícones */
+    flex-wrap: wrap; /* Permite que os ícones se movam para a próxima linha se necessário */
+    margin-top: 20px; /* Espaço acima dos ícones */
+}
+
+.tech-icon {
+    width: 50px; /* Ajuste o tamanho dos ícones */
+    height: auto; /* Mantém a proporção */
+    margin: 0 15px; /* Espaçamento entre os ícones */
+    transition: transform 0.3s; /* Efeito de transição ao passar o mouse */
+}
+
+.tech-icon:hover {
+    transform: scale(1.1); /* Aumenta o ícone ao passar o mouse */
+}
+
+
