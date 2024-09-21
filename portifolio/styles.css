@@ -5,8 +5,29 @@ body {
 }
 
 header {
+    padding: 1px 0; /* Ajusta o tamanho do cabeçalho */
     background-color: #333; /* Cor do cabeçalho */
+    position: fixed; /* Faz o cabeçalho ficar fixo no topo */
+    top: 0; /* Posiciona no topo */
+    left: 0;
+    right: 0;
+    z-index: 1000; /* Garante que fique acima de outros elementos */
 }
+
+.navbar-brand {
+    display: flex;
+    align-items: center;
+}
+
+.navbar-toggler {
+    border-color: transparent; /* Remove a borda do botão de menu */
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3E%3Cpath stroke='white' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); /* Cor do ícone */
+}
+
+
 
 nav {
     display: flex;
@@ -33,6 +54,18 @@ footer {
     color: #fff;
     padding: 1rem 0;
 }
+.logo {
+    display: flex; /* Usa flexbox para alinhar a logo e o texto */
+    align-items: center; /* Centraliza verticalmente */
+}
+
+.logo img {
+    width: 50px; /* Ajuste o tamanho conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin-right: 10px; /* Espaçamento entre a imagem e o texto */
+    border-radius: 20%; /* Faz a imagem ficar circular */
+}
+
 
 #home {
     background-color: #1a1a1a; /* Fundo da seção inicial */
@@ -71,6 +104,17 @@ h1 {
 .list-inline-item i {
     font-size: 24px;
     color: #9c27b0; /* Roxo para os ícones */
+}
+
+img {
+    transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease; /* Transições suaves */
+    border: 4px solid transparent; /* Borda inicial transparente */
+}
+
+img:hover {
+    transform: scale(1.1); /* Aumenta a imagem ao passar o mouse */
+    box-shadow: 0 0 15px #9c27b0; /* Sombra amarela brilhante */
+    border: 4px solid #9c27b0; /* Borda amarela ao passar o mouse */
 }
 
 
